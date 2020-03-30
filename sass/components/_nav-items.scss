@@ -1,0 +1,36 @@
+.nav-item
+{
+    position: relative;
+    font-size:1.8rem;
+    cursor: pointer;
+    font-weight: normal;
+    color: #D8D7D7;
+    padding: 1.5rem 3.3rem;
+    display: inline-block;
+    list-style: none;
+    transition: all 0.5s ease-in-out;
+    &:hover
+    {
+        color:whitesmoke;
+    }
+    &--active
+    {
+        background-color:#EF866F;border-radius: 50px;padding: 1rem;
+    }
+}
+
+
+.item{
+    font-size:1.8rem;
+    font-weight: normal;
+    color: #D8D7D7;
+    padding: 0;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    &:hover
+    {
+        color:whitesmoke;
+    }
+
+}

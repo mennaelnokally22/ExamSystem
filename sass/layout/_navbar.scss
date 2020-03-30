@@ -1,0 +1,13 @@
+.navbar-header
+{
+    background-color: transparent;
+    padding: 2rem;
+    &__content
+    {
+        display:flex;
+       justify-content: space-between;
+       -webkit-box-align: center;
+       align-items: center;
+       flex-wrap: wrap;
+    }
+}
